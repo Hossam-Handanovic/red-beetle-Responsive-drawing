@@ -1,0 +1,436 @@
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+    * {
+        font-family: 'Cairo', sans-serif;
+        text-align: center;
+    }
+    /* ====================================================== OBJECT ==================================================*/
+    
+    #the_icon {
+        border: 1px solid transparent;
+        width: 250px;
+        height: 250px;
+        margin-top: 120px;
+        margin-left: 330px;
+        border-radius: 50%;
+        background-color: #fe0000;
+    }
+    
+    #the_icon2 {
+        border: 1px solid transparent;
+        width: 150px;
+        height: 80px;
+        border-top-right-radius: 90px;
+        border-top-left-radius: 90px;
+        margin-top: -308px;
+        margin-left: 380px;
+        background-color: black;
+    }
+    
+    #eye1 {
+        border: 1px solid transparent;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 480px;
+        margin-top: -60px;
+        background-color: white;
+    }
+    
+    #eye2 {
+        border: 1px solid transparent;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 420px;
+        margin-top: -12px;
+        background-color: white;
+    }
+    
+    #line {
+        border: 1px solid black;
+        width: 250px;
+        background-color: black;
+        transform: rotate(90deg);
+        margin-left: 333px;
+        margin-top: 146px;
+    }
+    
+    #circle1 {
+        border: 1px solid transparent;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 480px;
+        margin-top: -60px;
+        background-color: black;
+    }
+    
+    #circle2 {
+        border: 1px solid transparent;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-left: 520px;
+        margin-top: 20px;
+        background-color: black;
+    }
+    
+    #circle3 {
+        border: 1px solid transparent;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 480px;
+        margin-top: 30px;
+        background-color: black;
+    }
+    
+    #circle4 {
+        border: 1px solid transparent;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-left: 520px;
+        margin-top: 20px;
+        background-color: black;
+    }
+    
+    #circle5 {
+        border: 1px solid transparent;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 410px;
+        margin-top: -60px;
+        background-color: black;
+    }
+    
+    #circle6 {
+        border: 1px solid transparent;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-left: 380px;
+        margin-top: 30px;
+        background-color: black;
+    }
+    
+    #circle7 {
+        border: 1px solid transparent;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 380px;
+        margin-top: -100px;
+        background-color: black;
+    }
+    
+    #sensor1 {
+        border: 2px solid black;
+        width: 60px;
+        height: 60px;
+        border-top-left-radius: 180px;
+        border-bottom: none;
+        border-right: none;
+        margin-left: 470px;
+        margin-top: -190px;
+    }
+    
+    #sensor2 {
+        border: 2px solid black;
+        width: 60px;
+        height: 60px;
+        border-top-right-radius: 180px;
+        border-bottom: none;
+        border-left: none;
+        margin-left: 380px;
+        margin-top: -55px;
+    }
+    
+    #cicrcle_sensor1 {
+        border: 1px solid transparent;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-left: 525px;
+        margin-top: -73px;
+        background-color: black;
+    }
+    
+    #cicrcle_sensor2 {
+        border: 1px solid transparent;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-left: 375px;
+        margin-top: -4.5px;
+        background-color: black;
+    }
+    
+    a {
+        margin-top: 330px;
+        display: flex;
+        margin-left: 578px;
+        font-size: 2em;
+        font-weight: bold;
+        text-decoration: none;
+        width: fit-content;
+    }
+    
+    a:hover {
+        transform: rotate(5deg);
+        color: #fe0000;
+    }
+    
+    a:visited {
+        color: black;
+    }
+    
+    h1 {
+        cursor: pointer;
+        width: fit-content;
+        text-align: center;
+        margin-left: 600px;
+    }
+    
+    h1:hover {
+        font-weight: normal;
+    }
+    
+    span {
+        visibility: hidden;
+    }
+    /* ================================================================ FOR MOBILE ======================================================== */
+    
+    @media screen and (max-width: 992px) {
+        #the_icon {
+            border: 1px solid transparent;
+            width: 650px;
+            height: 650px;
+            margin-top: 420px;
+            margin-left: -60px;
+            border-radius: 50%;
+            background-color: #fe0000;
+        }
+        #the_icon2 {
+            border: 1px solid transparent;
+            width: 433px;
+            height: 210px;
+            border-top-right-radius: 240px;
+            border-top-left-radius: 240px;
+            margin-top: -780px;
+            margin-left: 45px;
+            background-color: black;
+        }
+        #eye1 {
+            border: 1px solid transparent;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-left: 140px;
+            margin-top: -120px;
+            background-color: white;
+        }
+        #eye2 {
+            border: 1px solid transparent;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            margin-left: 355px;
+            margin-top: -35px;
+            background-color: white;
+        }
+        #line {
+            border: 1px solid black;
+            width: 620px;
+            background-color: black;
+            transform: rotate(90deg);
+            margin-left: -40px;
+            margin-top: 335px;
+        }
+        #sensor1 {
+            border: 5px solid black;
+            width: 180px;
+            height: 180px;
+            border-top-left-radius: 180px;
+            border-bottom: none;
+            border-right: none;
+            margin-left: 320px;
+            margin-top: -590px;
+        }
+        #sensor2 {
+            border: 5px solid black;
+            width: 180px;
+            height: 180px;
+            border-top-right-radius: 180px;
+            border-bottom: none;
+            border-left: none;
+            margin-left: 30px;
+            margin-top: -180px;
+        }
+        #cicrcle_sensor1 {
+            border: 1px solid transparent;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 480px;
+            margin-top: -200px;
+            background-color: black;
+        }
+        #cicrcle_sensor2 {
+            border: 1px solid transparent;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: 25px;
+            margin-top: -25px;
+            background-color: black;
+        }
+        a {
+            margin-top: 330px;
+            display: flex;
+            margin-left: 578px;
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            width: fit-content;
+        }
+        a:hover {
+            transform: rotate(5deg);
+            color: #fe0000;
+        }
+        a:visited {
+            color: black;
+        }
+        h1 {
+            cursor: pointer;
+            width: fit-content;
+            text-align: center;
+            margin-left: 600px;
+        }
+        h1:hover {
+            font-weight: normal;
+        }
+        #circle1 {
+            border: 1px solid transparent;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 480px;
+            margin-top: -60px;
+            background-color: black;
+            visibility: hidden;
+        }
+        #circle2 {
+            visibility: hidden;
+        }
+        #circle3 {
+            border: 1px solid transparent;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 480px;
+            margin-top: 30px;
+            /* background-color: black; */
+            visibility: hidden;
+        }
+        #circle4 {
+            visibility: hidden;
+        }
+        #circle5 {
+            visibility: hidden;
+        }
+        #circle6 {
+            visibility: hidden;
+        }
+        #circle7 {
+            visibility: hidden;
+        }
+        h1 {
+            font-size: 5em;
+            margin-left: 330px;
+        }
+        a {
+            font-size: 4em;
+            margin-top: 760px;
+            margin-left: 310px;
+            display: flex;
+        }
+        span {
+            visibility: visible;
+            font-size: 5em;
+        }
+        /* For popup message */
+        .swal-modal {
+            width: 700px;
+            opacity: 0;
+            pointer-events: none;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            position: static;
+            margin: 20px auto;
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+            z-index: 10001;
+            transition: opacity .2s, -webkit-transform .3s;
+            transition: transform .3s, opacity .2s;
+            transition: transform .3s, opacity .2s, -webkit-transform .3s;
+        }
+        .swal-title {
+            color: rgba(0, 0, 0, .65);
+            font-weight: 600;
+            text-transform: none;
+            position: relative;
+            display: block;
+            padding: 13px 16px;
+            font-size: 60px;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .swal-text {
+            font-size: 30px;
+            position: relative;
+            float: none;
+            line-height: normal;
+            vertical-align: top;
+            text-align: left;
+            display: inline-block;
+            margin: 0;
+            padding: 0 10px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, .64);
+            max-width: calc(100% - 20px);
+            overflow-wrap: break-word;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .swal-button {
+            background-color: red;
+            color: #fff;
+            border: none;
+            box-shadow: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 10px 24px;
+            margin: 0;
+            cursor: pointer;
+            font-size: 30px;
+        }
+        .swal-icon--info:after,
+        .swal-icon--info:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            background-color: red;
+        }
+        .swal-icon--info {
+            border-color: red;
+        }
+    }
